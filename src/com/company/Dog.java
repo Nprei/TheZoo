@@ -9,6 +9,14 @@ public class Dog extends Animal{
         this.color = color;
         this.age = age;
         this.food = food;
-        
+
+    }
+    public void eat(){
+        System.out.println("Dog is eating " + food + "!");
+
+    }
+    public void ageOfDog(){
+        int dogAge = age * 7;
+        System.out.println("Dog's age in dog years is " + dogAge);
     }
 }
